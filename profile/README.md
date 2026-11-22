@@ -8,7 +8,7 @@ Pick one. Run it. Make it yours.
 
 ## Start here
 
-1. **Pick a playbook** from the map below, or follow a learning path.
+1. **Pick a playbook** from the index below, or follow a learning path.
 2. **Open it** in a GitHub Codespace, or clone it.
 3. **Run `make run`**, then follow the README's numbered "Run it" steps and "Try this" experiments.
 
@@ -16,14 +16,18 @@ Only have time for one? Start with [Playbook 02](https://github.com/Data-Enginee
 
 > **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
 
-## The map
+## Index
 
 | Chapter | Playbook | What you'll do | Data |
 |---|---|---|---|
+| Starter | [00 CLIP claims](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-ai-CLIP-claims-pipeline) | Search pet insurance claims by X-ray, text or photo | Image, text, tables |
+| Starter | [00 Factory action plans](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-end-to-end-pipeline) | Turn factory sensor and camera data into an action plan | Sensor, image, tables |
+| Starter | [00 Music feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-feature-store-GTZAN) | Find songs that sound alike or look alike | Audio, image |
 | 1 | [01 Semantic layer](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-01-multimodal-ai-semantic-layer) | Link an X-ray, a note and vitals into one clinical event | Image, text, sensor |
 | 2 | [02 Feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-02-multimodal-feature-store-streambuy) | Search products by photo, review and video | Image, text, video |
 | 3 | [03 Context platform](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-03-multimodal-context-platform) | Find the right documents from a plain-language request | Image, documents |
 | 4 | [04 Ingestion](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-04-multimodal-ingestion-pipeline) | Ingest kitchen sensors, reviews and photos in one pipeline | Sensor, text, image |
+| 4 (bonus) | [04 bonus: Video similarity](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-04-bonus-multimodal-vector-similarity) | Find similar cooking videos with vector search | Video |
 | 5 | [05 Feature engineering](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering) | Turn driving data and its explanations into one set of features | Motion, text |
 | 6 | [06 Graph retrieval](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-06-multimodal-graph-rag) | Retrieve past incidents with vectors, a graph and a cache | Text, image, graph |
 | 7 | [07 Inference router](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-07-multimodal-inference-router) | Route drone and soil streams to real-time inference | Image, sensor |
@@ -32,16 +36,9 @@ Only have time for one? Start with [Playbook 02](https://github.com/Data-Enginee
 | 10 | [10 Inference service](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-10-multimodal-inference-service) | Serve a robot model with canary rollout and rollback | Image, text, audio, sensor |
 | 11 | [11 Governance](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-11-multimodal-governance-pipeline) | Make a hospital robot's pipeline traceable, secure and fair | Text, image, video, sensor |
 | 12 | [12 End-to-end](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-12-multimodal-streamkit-ops-pipeline) | Find the root cause of failures in a Kubernetes cluster | Metrics, logs |
+| 12 (bonus) | [12 bonus: Factory root cause](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-12-bonus-multimodal-rca-pipeline) | Find defective products on a robot assembly line | Sensor |
 
-**Bonus and starter playbooks** (not printed in the book):
-
-| Builds on | Playbook | What you'll do | Data |
-|---|---|---|---|
-| Chapter 4 | [04 bonus: Video similarity](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-04-bonus-multimodal-vector-similarity) | Find similar cooking videos with vector search | Video |
-| Chapter 12 | [12 bonus: Factory root cause](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-12-bonus-multimodal-rca-pipeline) | Find defective products on a robot assembly line | Sensor |
-| Starter | [00 CLIP claims](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-ai-CLIP-claims-pipeline) | Search pet insurance claims by X-ray, text or photo | Image, text, tables |
-| Starter | [00 Factory action plans](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-end-to-end-pipeline) | Turn factory sensor and camera data into an action plan | Sensor, image, tables |
-| Starter | [00 Music feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-feature-store-GTZAN) | Find songs that sound alike or look alike | Audio, image |
+Starter and bonus playbooks are not printed in the book.
 
 ## Learning paths
 
