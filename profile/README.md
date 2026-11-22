@@ -10,7 +10,7 @@ Pick one. Run it. Make it yours.
 2. **Open it** in a GitHub Codespace, or clone it.
 3. **Run `make run`**, then follow the README's numbered "Run it" steps and "Try this" experiments.
 
-Only have time for one? Start with [Playbook 02](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-02-multimodal-feature-store-streambuy): you build a search over product photos, reviews and video. The book itself suggests [Playbook 05](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering) if you work through only one.
+Only have time for one? Go to [Playbook 05](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering). You'll turn self-driving car data, motion tracks and the text that explains them, into one set of features a model can learn from.
 
 > **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
 
