@@ -14,6 +14,10 @@ Pick one. Run it. Make it yours.
 
 Only have time for one? Go to [Playbook 05](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering). You'll turn self-driving car data, motion tracks and the text that explains them, into one set of features a model can learn from.
 
+<a href="https://codespaces.new/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering?ref=playbooks-v1.1%2Fone-command&quickstart=1"><img src="https://github.com/codespaces/badge.svg" alt="Open Playbook 05 in GitHub Codespaces" height="32"></a>
+
+<img src="https://raw.githubusercontent.com/Data-Engineering-for-Multimodal-AI/.github/main/profile/assets/demo-05.gif" alt="Playbook 05 in a terminal: make run processes 776 Waymo scenarios, then make show prints one agent's speed, distance, yielding label and text embedding next to the question and answer it came from." width="100%">
+
 > **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
 
 ## Playbooks
