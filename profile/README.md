@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Data-Engineering-for-Multimodal-AI/.github/main/profile/assets/banner-dark.png">
+  <img alt="The Playbooks. Hands-on data engineering for multimodal AI. Runnable companion code for Data Engineering for Multimodal AI (O'Reilly, 2026)." src="https://raw.githubusercontent.com/Data-Engineering-for-Multimodal-AI/.github/main/profile/assets/banner-light.png" width="100%">
+</picture>
+
 Multimodal AI involves more than combining text, audio, images and video. The data behind robots, self-driving cars and world models is typically spread across systems that were never built to meet. Someone has to bring it all together. And that someone is a data engineer.
 
 Learn that work here, by doing it. Build your portfolio with 17 working projects: one for each chapter of [*Data Engineering for Multimodal AI*](https://oreil.ly/data-engineering-multimodal) (O'Reilly, 2026), and five more to go further. Each runs on your laptop with one command and shows you what it measured.
