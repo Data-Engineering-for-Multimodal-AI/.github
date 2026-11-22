@@ -1,10 +1,10 @@
-# The Playbooks
+# Multimodal AI involves more than combining text, audio, images and video.
 
-**Runnable companion code for [*Data Engineering for Multimodal AI*](https://oreil.ly/data-engineering-multimodal) (O'Reilly, 2026).**
+The data behind robots, self-driving cars and world models is typically spread across systems that were never built to meet. Someone has to bring it all together. And that someone is a data engineer.
 
-Multimodal AI breaks in the data layer: images, text, audio, video and sensor readings that each look fine on their own but never line up. These 17 playbooks are working pipelines that show how to ingest, align, store, search, serve and govern that data. Each one runs on a laptop or in a Codespace, starts with one command, and measures what it does.
+This is the place to build your multimodal AI engineering chops. Build your portfolio with 17 working projects: one for each chapter of [*Data Engineering for Multimodal AI*](https://oreil.ly/data-engineering-multimodal) (O'Reilly, 2026), and five more to go further. Each runs on your laptop with one command and shows you what it measured.
 
-> **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
+Pick one. Run it. Make it yours.
 
 ## Start here
 
@@ -13,6 +13,8 @@ Multimodal AI breaks in the data layer: images, text, audio, video and sensor re
 3. **Run `make run`**, then follow the README's numbered "Run it" steps and "Try this" experiments.
 
 Only have time for one? Start with [Playbook 02](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-02-multimodal-feature-store-streambuy): you build a search over product photos, reviews and video. The book itself suggests [Playbook 05](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-05-multimodal-feature-engineering) if you work through only one.
+
+> **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
 
 ## The map
 
@@ -63,3 +65,7 @@ Each path is a few playbooks in order, each building on the last.
 Found a bug or a broken step? Open an issue in that playbook's repo. Looking for somewhere to start? See the [good first issues](https://github.com/search?q=org%3AData-Engineering-for-Multimodal-AI+label%3A%22good+first+issue%22+state%3Aopen&type=issues).
 
 The code is MIT licensed. Sample data keeps its own license; each repo lists it under "Data and licenses".
+
+---
+
+**The Playbooks** · Companion code for *Data Engineering for Multimodal AI* (O'Reilly, 2026)
