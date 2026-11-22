@@ -1,8 +1,6 @@
-# Multimodal AI involves more than combining text, audio, images and video.
+Multimodal AI involves more than combining text, audio, images and video. The data behind robots, self-driving cars and world models is typically spread across systems that were never built to meet. Someone has to bring it all together. And that someone is a data engineer.
 
-The data behind robots, self-driving cars and world models is typically spread across systems that were never built to meet. Someone has to bring it all together. And that someone is a data engineer.
-
-This is the place to build your multimodal AI engineering chops. Build your portfolio with 17 working projects: one for each chapter of [*Data Engineering for Multimodal AI*](https://oreil.ly/data-engineering-multimodal) (O'Reilly, 2026), and five more to go further. Each runs on your laptop with one command and shows you what it measured.
+Learn that work here, by doing it. Build your portfolio with 17 working projects: one for each chapter of [*Data Engineering for Multimodal AI*](https://oreil.ly/data-engineering-multimodal) (O'Reilly, 2026), and five more to go further. Each runs on your laptop with one command and shows you what it measured.
 
 Pick one. Run it. Make it yours.
 
