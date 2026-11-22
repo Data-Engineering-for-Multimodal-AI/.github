@@ -11,7 +11,7 @@ Pick one. Run it. Make it yours.
 
 ## Start here
 
-1. **Pick a playbook** from the index below, or follow a learning path.
+1. **Pick a playbook** from the list below, or follow a learning path.
 2. **Open it** in a GitHub Codespace, or clone it.
 3. **Run `make run`**, then follow the README's numbered "Run it" steps and "Try this" experiments.
 
@@ -19,7 +19,7 @@ Only have time for one? Go to [Playbook 05](https://github.com/Data-Engineering-
 
 > **Updates in progress (November 2026).** The one-command runs, Codespaces and step-by-step READMEs are in review in each repo. Until they are merged, each repo's open pull request has the new version.
 
-## Index
+## Playbooks
 
 | Chapter | Playbook | What you'll do | Data |
 |---|---|---|---|
