@@ -20,9 +20,6 @@ Only have time for one? Go to [Playbook 05](https://github.com/Data-Engineering-
 
 | Chapter | Playbook | What you'll do | Data |
 |---|---|---|---|
-| Starter | [00 CLIP claims](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-ai-CLIP-claims-pipeline) | Search pet insurance claims by X-ray, text or photo | Image, text, tables |
-| Starter | [00 Factory action plans](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-end-to-end-pipeline) | Turn factory sensor and camera data into an action plan | Sensor, image, tables |
-| Starter | [00 Music feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-feature-store-GTZAN) | Find songs that sound alike or look alike | Audio, image |
 | 1 | [01 Semantic layer](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-01-multimodal-ai-semantic-layer) | Link an X-ray, a note and vitals into one clinical event | Image, text, sensor |
 | 2 | [02 Feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-02-multimodal-feature-store-streambuy) | Search products by photo, review and video | Image, text, video |
 | 3 | [03 Context platform](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-03-multimodal-context-platform) | Find the right documents from a plain-language request | Image, documents |
@@ -37,8 +34,11 @@ Only have time for one? Go to [Playbook 05](https://github.com/Data-Engineering-
 | 11 | [11 Governance](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-11-multimodal-governance-pipeline) | Make a hospital robot's pipeline traceable, secure and fair | Text, image, video, sensor |
 | 12 | [12 End-to-end](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-12-multimodal-streamkit-ops-pipeline) | Find the root cause of failures in a Kubernetes cluster | Metrics, logs |
 | 12 (bonus) | [12 bonus: Factory root cause](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-12-bonus-multimodal-rca-pipeline) | Find defective products on a robot assembly line | Sensor |
+| Starter | [00 CLIP claims](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-ai-CLIP-claims-pipeline) | Search pet insurance claims by X-ray, text or photo | Image, text, tables |
+| Starter | [00 Factory action plans](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-end-to-end-pipeline) | Turn factory sensor and camera data into an action plan | Sensor, image, tables |
+| Starter | [00 Music feature store](https://github.com/Data-Engineering-for-Multimodal-AI/playbook-00-multimodal-feature-store-GTZAN) | Find songs that sound alike or look alike | Audio, image |
 
-Starter and bonus playbooks are not printed in the book.
+Bonus and starter playbooks are not printed in the book.
 
 ## Learning paths
 
