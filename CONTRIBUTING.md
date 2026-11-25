@@ -43,7 +43,7 @@ The printed book points at these repositories. To keep it accurate:
 
 ## Data and secrets
 
-- Don't commit datasets you don't have the right to share. Each playbook lists its data and licenses in `DATA_LICENSES.md`.
+- Don't commit datasets you don't have the right to share. Each playbook lists its data and licenses in `DATA_SOURCES.md`.
 - Don't commit API keys or passwords. Pushes that contain known secret formats are blocked.
 - Report security problems privately. See [SECURITY.md](SECURITY.md).
 
