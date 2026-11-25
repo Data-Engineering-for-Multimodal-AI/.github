@@ -1,0 +1,36 @@
+name: Question
+description: Ask about a playbook, the code, or how something in the book maps to the code.
+labels: ["question"]
+body:
+  - type: dropdown
+    id: playbook
+    attributes:
+      label: Playbook
+      options:
+        - Not about one playbook
+        - playbook-00-multimodal-ai-CLIP-claims-pipeline
+        - playbook-00-multimodal-end-to-end-pipeline
+        - playbook-00-multimodal-feature-store-GTZAN
+        - playbook-01-multimodal-ai-semantic-layer
+        - playbook-02-multimodal-feature-store-streambuy
+        - playbook-03-multimodal-context-platform
+        - playbook-04-multimodal-ingestion-pipeline
+        - playbook-04-bonus-multimodal-vector-similarity
+        - playbook-05-multimodal-feature-engineering
+        - playbook-06-multimodal-graph-rag
+        - playbook-07-multimodal-inference-router
+        - playbook-08-multimodal-mlops
+        - playbook-09-multimodal-scaling-benchmarks
+        - playbook-10-multimodal-inference-service
+        - playbook-11-multimodal-governance-pipeline
+        - playbook-12-multimodal-streamkit-ops-pipeline
+        - playbook-12-bonus-multimodal-rca-pipeline
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you're trying to do, and what you've tried so far.
+    validations:
+      required: true

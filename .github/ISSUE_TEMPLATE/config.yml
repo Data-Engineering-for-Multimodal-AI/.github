@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security problem
+    url: https://github.com/Data-Engineering-for-Multimodal-AI/.github/blob/main/SECURITY.md
+    about: Please report security problems privately, not in a public issue.
+  - name: The book
+    url: https://www.oreilly.com/library/view/-/9781098190774/
+    about: Data Engineering for Multimodal AI (O'Reilly, 2026).

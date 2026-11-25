@@ -1,0 +1,75 @@
+name: Bug in a playbook
+description: A command fails, or its output doesn't match the README or the book.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please check that you're on the latest default branch first (`git pull`).
+  - type: dropdown
+    id: playbook
+    attributes:
+      label: Playbook
+      options:
+        - playbook-00-multimodal-ai-CLIP-claims-pipeline
+        - playbook-00-multimodal-end-to-end-pipeline
+        - playbook-00-multimodal-feature-store-GTZAN
+        - playbook-01-multimodal-ai-semantic-layer
+        - playbook-02-multimodal-feature-store-streambuy
+        - playbook-03-multimodal-context-platform
+        - playbook-04-multimodal-ingestion-pipeline
+        - playbook-04-bonus-multimodal-vector-similarity
+        - playbook-05-multimodal-feature-engineering
+        - playbook-06-multimodal-graph-rag
+        - playbook-07-multimodal-inference-router
+        - playbook-08-multimodal-mlops
+        - playbook-09-multimodal-scaling-benchmarks
+        - playbook-10-multimodal-inference-service
+        - playbook-11-multimodal-governance-pipeline
+        - playbook-12-multimodal-streamkit-ops-pipeline
+        - playbook-12-bonus-multimodal-rca-pipeline
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Book chapter or page
+      description: If you were following the book, which chapter or page.
+      placeholder: Chapter 5, page 212
+  - type: textarea
+    id: command
+    attributes:
+      label: Command you ran
+      placeholder: make run
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened
+      description: Paste the full output, including the error.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where you ran it
+      options:
+        - Codespaces or dev container
+        - macOS
+        - Linux
+        - Windows (WSL)
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Output of `python --version`, `uv --version` and `docker --version` (if the playbook uses Docker).
