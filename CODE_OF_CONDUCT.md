@@ -37,7 +37,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported privately to the maintainer, [@vasundras](https://github.com/vasundras), who is responsible for enforcement. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported with GitHub's **Report content** option, in the "..." menu of the comment, issue or pull request. Choose to send the report to the repository maintainer, [@vasundras](https://github.com/vasundras), who is responsible for enforcement, or to GitHub. All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
